@@ -35,7 +35,7 @@ EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
 DEBUG = False
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["aymanmmokhtar.pythonanywhere.com"]
 
 
 # Application definition
